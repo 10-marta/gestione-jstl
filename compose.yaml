@@ -1,0 +1,7 @@
+services:
+  app:
+    image: marta806/gestione-jstl:latest
+    #command: "catalina.sh run"
+    ports:
+      - 9080:8080
+    #working_dir: /usr/local/tomcat/webapps
